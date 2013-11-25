@@ -6,11 +6,90 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E45CB2031843A63600F81B70 /* SCMap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCMap.c; sourceTree = "<group>"; };
+		E45CB2041843A63600F81B70 /* SCMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMap.h; sourceTree = "<group>"; };
+		E45CB2061843A63600F81B70 /* SCHarbor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCHarbor.c; sourceTree = "<group>"; };
+		E45CB2071843A63600F81B70 /* SCHarbor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHarbor.h; sourceTree = "<group>"; };
+		E45CB2081843A63600F81B70 /* SCTile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCTile.c; sourceTree = "<group>"; };
+		E45CB2091843A63600F81B70 /* SCTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTile.h; sourceTree = "<group>"; };
+		E45CB20A1843A63600F81B70 /* SCTileItem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCTileItem.c; sourceTree = "<group>"; };
+		E45CB20B1843A63600F81B70 /* SCTileItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTileItem.h; sourceTree = "<group>"; };
+		E45CB20D1843A63600F81B70 /* SCRoad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCRoad.c; sourceTree = "<group>"; };
+		E45CB20E1843A63600F81B70 /* SCRoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRoad.h; sourceTree = "<group>"; };
+		E45CB20F1843A63600F81B70 /* SCSettlement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCSettlement.c; sourceTree = "<group>"; };
+		E45CB2101843A63600F81B70 /* SCSettlement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSettlement.h; sourceTree = "<group>"; };
+		E45CB2121843A63600F81B70 /* SCCommon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCCommon.c; sourceTree = "<group>"; };
+		E45CB2131843A63600F81B70 /* SCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCommon.h; sourceTree = "<group>"; };
+		E45CB2141843A63600F81B70 /* SCCoordinates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCCoordinates.c; sourceTree = "<group>"; };
+		E45CB2151843A63600F81B70 /* SCCoordinates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCoordinates.h; sourceTree = "<group>"; };
+		E45CB2161843A63600F81B70 /* SCVertex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCVertex.c; sourceTree = "<group>"; };
+		E45CB2171843A63600F81B70 /* SCVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCVertex.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E45CB1FA1843A5C900F81B70 = {
 			isa = PBXGroup;
 			children = (
+				E45CB2011843A63600F81B70 /* SCSettlersAPI */,
 			);
+			sourceTree = "<group>";
+		};
+		E45CB2011843A63600F81B70 /* SCSettlersAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E45CB2021843A63600F81B70 /* Board */,
+				E45CB2051843A63600F81B70 /* BoardPieces */,
+				E45CB20C1843A63600F81B70 /* GamePieces */,
+				E45CB2111843A63600F81B70 /* Geometry */,
+			);
+			path = SCSettlersAPI;
+			sourceTree = "<group>";
+		};
+		E45CB2021843A63600F81B70 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				E45CB2031843A63600F81B70 /* SCMap.c */,
+				E45CB2041843A63600F81B70 /* SCMap.h */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		E45CB2051843A63600F81B70 /* BoardPieces */ = {
+			isa = PBXGroup;
+			children = (
+				E45CB2061843A63600F81B70 /* SCHarbor.c */,
+				E45CB2071843A63600F81B70 /* SCHarbor.h */,
+				E45CB2081843A63600F81B70 /* SCTile.c */,
+				E45CB2091843A63600F81B70 /* SCTile.h */,
+				E45CB20A1843A63600F81B70 /* SCTileItem.c */,
+				E45CB20B1843A63600F81B70 /* SCTileItem.h */,
+			);
+			path = BoardPieces;
+			sourceTree = "<group>";
+		};
+		E45CB20C1843A63600F81B70 /* GamePieces */ = {
+			isa = PBXGroup;
+			children = (
+				E45CB20D1843A63600F81B70 /* SCRoad.c */,
+				E45CB20E1843A63600F81B70 /* SCRoad.h */,
+				E45CB20F1843A63600F81B70 /* SCSettlement.c */,
+				E45CB2101843A63600F81B70 /* SCSettlement.h */,
+			);
+			path = GamePieces;
+			sourceTree = "<group>";
+		};
+		E45CB2111843A63600F81B70 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				E45CB2121843A63600F81B70 /* SCCommon.c */,
+				E45CB2131843A63600F81B70 /* SCCommon.h */,
+				E45CB2141843A63600F81B70 /* SCCoordinates.c */,
+				E45CB2151843A63600F81B70 /* SCCoordinates.h */,
+				E45CB2161843A63600F81B70 /* SCVertex.c */,
+				E45CB2171843A63600F81B70 /* SCVertex.h */,
+			);
+			path = Geometry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
