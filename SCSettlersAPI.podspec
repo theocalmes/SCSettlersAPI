@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 	s.name		= "SCSettlersAPI"
-	s.version	= "0.0.2"
+	s.version	= "0.0.3"
 	s.summary 	= "C based api for the settlers of catan game."
 	s.homepage	= "https://github.com/theocalmes/SCSettlersAPI.git"
 	s.license	= 'MIT'
 	s.author 	= {"Theodore Calmes" => "theocalmes@gmail.com"}
 	s.source    = { 
     	:git => "https://github.com/theocalmes/SCSettlersAPI.git",
-    	:tag => "0.0.2"
+    	:tag => "0.0.3"
   	}
   	s.source_files = 'SCSettlersAPI/**/*.{c,h}'
 	s.requires_arc = true

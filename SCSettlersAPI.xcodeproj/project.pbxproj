@@ -20,11 +20,12 @@
 		E45CB20F1843A63600F81B70 /* SCSettlement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCSettlement.c; sourceTree = "<group>"; };
 		E45CB2101843A63600F81B70 /* SCSettlement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSettlement.h; sourceTree = "<group>"; };
 		E45CB2121843A63600F81B70 /* SCCommon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCCommon.c; sourceTree = "<group>"; };
-		E45CB2131843A63600F81B70 /* SCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCommon.h; sourceTree = "<group>"; };
+		E45CB2131843A63600F81B70 /* SCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCommon.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
 		E45CB2141843A63600F81B70 /* SCCoordinates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCCoordinates.c; sourceTree = "<group>"; };
 		E45CB2151843A63600F81B70 /* SCCoordinates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCoordinates.h; sourceTree = "<group>"; };
 		E45CB2161843A63600F81B70 /* SCVertex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SCVertex.c; sourceTree = "<group>"; };
 		E45CB2171843A63600F81B70 /* SCVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCVertex.h; sourceTree = "<group>"; };
+		E45CB2181843A9E500F81B70 /* SCIncludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCIncludes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -42,6 +43,7 @@
 				E45CB2051843A63600F81B70 /* BoardPieces */,
 				E45CB20C1843A63600F81B70 /* GamePieces */,
 				E45CB2111843A63600F81B70 /* Geometry */,
+				E45CB2181843A9E500F81B70 /* SCIncludes.h */,
 			);
 			path = SCSettlersAPI;
 			sourceTree = "<group>";
